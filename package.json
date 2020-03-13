@@ -1,0 +1,22 @@
+{
+  "name": "graphql-fun",
+  "version": "1.0.0",
+  "description": "make developers effort less",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilunni511/graphql-fun.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "nikhilunni <nikhi.unni@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikhilunni511/graphql-fun/issues"
+  },
+  "homepage": "https://github.com/nikhilunni511/graphql-fun#readme"
+}
