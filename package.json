@@ -2,7 +2,7 @@
   "name": "graphql-fun",
   "version": "1.0.0",
   "description": "make developers effort less",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/nikhilunni511/graphql-fun/issues"
   },
-  "homepage": "https://github.com/nikhilunni511/graphql-fun#readme"
+  "homepage": "https://github.com/nikhilunni511/graphql-fun#readme",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "inquirer": "^7.1.0"
+  }
 }
