@@ -1,8 +1,11 @@
-const appRoot = require('app-root-path')
+#!/usr/bin/env node
 const createModule = require('./create-module')
-console.log(appRoot)
-if(process.argv[2] === 'create-module'){
-createModule()
+const createServer = require('./create-server')
+switch (process.argv[2]) {
+    case 'server': createServer();
+        break;
+    default: {
+        console.log('Invalid argument')
+        process.exit(0)
+    }
 }
-else{console.log('invalid argument')
-process.exit(0)}
