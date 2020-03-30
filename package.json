@@ -15,7 +15,10 @@
     "url": "git+https://github.com/nikhilunni511/graphql-dev.git"
   },
   "keywords": [
-    "npm"
+    "npm",
+    "Apollo",
+    "GraphQL",
+    "Typescript"
   ],
   "author": "nikhilunni <nikhi.unni@gmail.com>",
   "license": "MIT",
