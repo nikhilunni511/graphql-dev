@@ -6,7 +6,7 @@ export class AsoiafDataSource extends RESTDataSource {
     this.baseURL = "http://www.anapioficeandfire.com/api";
   }
 
-  public async getFilms() {
+  public async getBooks() {
     return this.get("/books");
   }
 
