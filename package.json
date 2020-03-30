@@ -1,6 +1,6 @@
 {
   "name": "graphql-dev",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "make developers effort less",
   "main": "src/index.js",
   "scripts": {
