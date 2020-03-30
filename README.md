@@ -37,7 +37,7 @@ Usage:
 
 ```
 
-Refer to [Create a simple apollo-server](http://loopback.io/doc/en/lb3/Create-a-simple-API.html) 
+Refer to [Create a simple apollo-server](https://github.com/nikhilunni511/docs/blob/master/npm-graphql-dev/README.md#how-to-setup-a-apollo-server-using--graphql-fun) 
 for more information.
 
 
