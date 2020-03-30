@@ -1,6 +1,6 @@
 {
-  "name": "graphql-fun",
-  "version": "1.1.3",
+  "name": "graphql-dev",
+  "version": "0.1.0",
   "description": "make developers effort less",
   "main": "src/index.js",
   "scripts": {
@@ -8,11 +8,11 @@
     "start": "node index.js"
   },
   "bin": {
-    "graphql-fun": "src/index.js"
+    "graphql-dev": "src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nikhilunni511/graphql-fun.git"
+    "url": "git+https://github.com/nikhilunni511/graphql-dev.git"
   },
   "keywords": [
     "npm"
@@ -20,9 +20,9 @@
   "author": "nikhilunni <nikhi.unni@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nikhilunni511/graphql-fun/issues"
+    "url": "https://github.com/nikhilunni511/graphql-dev/issues"
   },
-  "homepage": "https://github.com/nikhilunni511/graphql-fun#readme",
+  "homepage": "https://github.com/nikhilunni511/graphql-dev#readme",
   "dependencies": {
     "@apollo/federation": "^0.13.2",
     "apollo-datasource-rest": "^0.8.0",

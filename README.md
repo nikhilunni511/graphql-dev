@@ -1,4 +1,4 @@
-# graphql-fun
+# graphql-dev
 
 GraphQL CLI tool for creating apollo-server, typedefs, resolvers and datasources and more.
 
@@ -7,7 +7,7 @@ GraphQL CLI tool for creating apollo-server, typedefs, resolvers and datasources
 To install the GraphQL CLI tool:
 
 ```
-$ npm install -g graphql-fun
+$ npm install -g graphql-dev
 ```
 
 ## Use
@@ -15,29 +15,29 @@ $ npm install -g graphql-fun
 ### Getting started
 
  1. cd /project-path
- 2. Run `graphql-fun server` to create a new apollo-server.
+ 2. Run `graphql-dev server` to create a new apollo-server.
 
 ### What's next
 
-Run `graphql-fun -l` to list all available commands:
+Run `graphql-dev -l` to list all available commands:
 
 ```
-$ graphql-fun -l
+$ graphql-dev -l
 Available commands:
-  graphql-fun server
+  graphql-dev server
 ```
 
-Run `graphql-fun <command> --help` to learn more about each command. For example:
+Run `graphql-dev <command> --help` to learn more about each command. For example:
 
 ```
-$ graphql-fun server --help
+$ graphql-dev server --help
 Usage:
-  graphql-fun server [options] [<name>]
+  graphql-dev server [options] [<name>]
 
 
 ```
 
-Refer to [Create a simple apollo-server](https://github.com/nikhilunni511/docs/blob/master/npm-graphql-dev/README.md#how-to-setup-a-apollo-server-using--graphql-fun) 
+Refer to [Create a simple apollo-server](https://github.com/nikhilunni511/docs/blob/master/npm-graphql-dev/README.md#how-to-setup-a-apollo-server-using--graphql-dev) 
 for more information.
 
 
