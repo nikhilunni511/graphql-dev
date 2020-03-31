@@ -6,14 +6,14 @@ export const typeDefs = gql`
     getCharacters: [Character]
   }
   type Book {
-    name: String,
-    publisher: String,
+    name: String
+    publisher: String
     released: String
   }
   type Character {
-    name: String,
-    culture: String,
-    born: String,
-    url
+    name: String
+    culture: String
+    born: String
+    url: String
   }
 `;
