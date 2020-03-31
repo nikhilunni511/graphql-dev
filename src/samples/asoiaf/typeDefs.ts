@@ -7,12 +7,13 @@ export const typeDefs = gql`
   }
   type Book {
     name: String,
-    publiser: String,
-    releases: String
+    publisher: String,
+    released: String
   }
   type Character {
     name: String,
     culture: String,
-    born: String
+    born: String,
+    url
   }
 `;
