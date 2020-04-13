@@ -1,6 +1,6 @@
 {
   "name": "graphql-dev",
-  "version": "0.1.0",
+  "version": "0.2.2",
   "description": "make developers effort less",
   "main": "src/index.js",
   "scripts": {
@@ -16,7 +16,10 @@
     "url": "git+https://github.com/nikhilunni511/graphql-dev.git"
   },
   "keywords": [
-    "npm"
+    "npm",
+    "Apollo",
+    "GraphQL",
+    "Typescript"
   ],
   "author": "nikhilunni <nikhi.unni@gmail.com>",
   "license": "MIT",

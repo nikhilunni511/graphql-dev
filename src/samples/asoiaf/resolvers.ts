@@ -1,11 +1,11 @@
 export const resolvers = {
   Query: {
     getBooks: async (_, {}, { dataSources }) => {
-      return await dataSources.asoiafApi.getFilms();
+      return await dataSources.AsoiafDataSource.getBooks();
     },
 
     getCharacters: async (_, {}, { dataSources }) => {
-      return await dataSources.asoiafApi.getCharacters();
+      return await dataSources.AsoiafDataSource.getCharacters();
     }
   }
 };
