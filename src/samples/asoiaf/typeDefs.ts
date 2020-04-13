@@ -1,4 +1,4 @@
-import { gql } from "apollo-server";
+import { gql } from 'apollo-server';
 
 export const typeDefs = gql`
   extend type Query {
@@ -6,13 +6,13 @@ export const typeDefs = gql`
     getCharacters: [Character]
   }
   type Book {
-    name: String,
-    publiser: String,
+    name: String
+    publiser: String
     releases: String
   }
   type Character {
-    name: String,
-    culture: String,
+    name: String
+    culture: String
     born: String
   }
 `;
