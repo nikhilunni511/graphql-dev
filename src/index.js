@@ -11,7 +11,7 @@ console.log(
 );
 switch (arguments[0]) {
   case 'server':
-    createServer(arguments.splice(0));
+    createServer(arguments.splice(1));
     break;
   case '--help':
     console.log(help);

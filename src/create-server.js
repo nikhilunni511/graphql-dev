@@ -10,8 +10,8 @@ const npmModules = [
 ];
 
 exports.createServer = (arguments) => {
-  const args = arguments[1].split('=');
-  switch (args[0]) {
+  console.log(arguments);
+  switch (arguments[0]) {
     case '--help':
       console.log(serverHelp);
       break;
@@ -19,7 +19,7 @@ exports.createServer = (arguments) => {
       console.log(serverHelp);
       break;
     case '--type':
-      if (args[1] === 'module') console.log('\n\nwill update soon');
+      if (arguments[1] === 'module') console.log('\n\nwill update soon');
       else generateServer();
       break;
       break;

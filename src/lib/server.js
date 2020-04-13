@@ -18,7 +18,7 @@ const sections = [
   },
   {
     header: 'Synopsis',
-    content: ['$ graphql-dev server [--type=<default|module>]']
+    content: ['$ graphql-dev server [--type <default|module>]']
   },
   {
     header: 'Options',
