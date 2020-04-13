@@ -10,7 +10,6 @@ const npmModules = [
 ];
 
 exports.createServer = (arguments) => {
-  console.log(arguments);
   switch (arguments[0]) {
     case '--help':
       console.log(serverHelp);
