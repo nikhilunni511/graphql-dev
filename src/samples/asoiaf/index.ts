@@ -1,6 +1,3 @@
-
-   export { resolvers } from './resolvers';
-   export { typeDefs } from './typeDefs';
-   import { AsoiafDataSource } from './dataSource'
-   export const dataSources = {AsoiafDataSource}
-    
+export { resolvers } from './resolvers';
+export { typeDefs } from './typeDefs';
+export { AsoiafDataSource } from './dataSource';
